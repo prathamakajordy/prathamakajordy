@@ -1,0 +1,103 @@
+<!--
+  ============================================================
+  banner.svg — Animated hero banner for the GitHub profile README
+  ============================================================
+  HOW TO CUSTOMIZE:
+  - Line "Pratham Tiwari"      -> change to your own name
+  - Line "B.Tech IT..."        -> change to your own role / tagline
+  - Colors are defined once in <defs><linearGradient> — edit the
+    <stop> colors there to re-theme the whole banner in one place.
+  - Size is 1200x300. Keep the viewBox ratio if you resize.
+  ============================================================
+-->
+<svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Primary background gradient — edit these stops to re-theme -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f0c29">
+        <animate attributeName="stop-color"
+          values="#0f0c29; #302b63; #0f0c29"
+          dur="8s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="50%" stop-color="#302b63">
+        <animate attributeName="stop-color"
+          values="#302b63; #24243e; #302b63"
+          dur="8s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#24243e">
+        <animate attributeName="stop-color"
+          values="#24243e; #0f0c29; #24243e"
+          dur="8s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+
+    <!-- Accent gradient for the name text -->
+    <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00d9ff" />
+      <stop offset="50%" stop-color="#7f5af0" />
+      <stop offset="100%" stop-color="#00d9ff" />
+    </linearGradient>
+
+    <!-- Soft glow filter -->
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="coloredBlur" />
+      <feMerge>
+        <feMergeNode in="coloredBlur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Subtle grid pattern for texture -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255,255,255,0.04)" stroke-width="1" />
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="300" fill="url(#bgGradient)" rx="18" />
+  <rect width="1200" height="300" fill="url(#grid)" rx="18" />
+
+  <!-- Floating decorative particles -->
+  <circle cx="120" cy="60" r="3" fill="#00d9ff" opacity="0.7">
+    <animate attributeName="cy" values="60;40;60" dur="4s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="1080" cy="80" r="4" fill="#7f5af0" opacity="0.6">
+    <animate attributeName="cy" values="80;110;80" dur="5s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="1000" cy="220" r="2.5" fill="#00d9ff" opacity="0.8">
+    <animate attributeName="cy" values="220;200;220" dur="3.5s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="150" cy="240" r="3.5" fill="#7f5af0" opacity="0.5">
+    <animate attributeName="cy" values="240;260;240" dur="4.5s" repeatCount="indefinite" />
+  </circle>
+
+  <!-- Code-bracket motif, left side -->
+  <text x="60" y="175" font-family="Fira Code, monospace" font-size="72" fill="rgba(255,255,255,0.06)" font-weight="700">&lt;/&gt;</text>
+
+  <!-- Name -->
+  <text x="600" y="140" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif"
+        font-size="56" font-weight="700" fill="url(#textGradient)" filter="url(#glow)">
+    Pratham Tiwari
+  </text>
+
+  <!-- Animated typing tagline -->
+  <text x="600" y="190" text-anchor="middle" font-family="Fira Code, Consolas, monospace"
+        font-size="24" fill="#e0e0f0">
+    <tspan>
+      B.Tech IT Student &#8226; AI / ML Engineer &#8226; Full-Stack Developer
+    </tspan>
+    <animate attributeName="opacity" values="0;1;1;0" dur="6s" repeatCount="indefinite" />
+  </text>
+
+  <!-- Underline accent -->
+  <rect x="420" y="205" width="360" height="3" rx="1.5" fill="url(#textGradient)">
+    <animate attributeName="width" values="0;360;360;0" dur="6s" repeatCount="indefinite" />
+    <animate attributeName="x" values="600;420;420;600" dur="6s" repeatCount="indefinite" />
+  </rect>
+
+  <!-- Bottom caption -->
+  <text x="600" y="250" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif"
+        font-size="15" fill="rgba(255,255,255,0.55)" letter-spacing="2">
+    BUILDING AI-POWERED PRODUCTS &#8226; ONE COMMIT AT A TIME
+  </text>
+</svg>
