@@ -230,16 +230,20 @@ An offline inference engine developed to evaluate AI competition submissions det
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=prathamakajordy&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" width="49%" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=prathamakajordy&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" width="30%" />
+<!-- GitHub Stats -->
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=prathamakajordy&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" />
 
-<br/><br/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=prathamakajordy&layout=compact&langs_count=8&theme=tokyonight&hide_border=true" />
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=prathamakajordy&theme=tokyonight&hide_border=true" alt="GitHub Streak" width="70%" />
+<br><br>
 
-<br/><br/>
+<!-- GitHub Streak -->
+<img src="https://streak-stats.demolab.com?user=prathamakajordy&theme=tokyonight&hide_border=true" />
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=prathamakajordy&theme=tokyo-night&hide_border=true" alt="GitHub Activity Graph" width="90%" />
+<br><br>
+
+<!-- GitHub Activity Graph -->
+<img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=prathamakajordy&theme=tokyo-night&hide_border=true&area=true" />
 
 </div>
 
