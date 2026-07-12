@@ -46,10 +46,10 @@
 <!-- ================= QUICK BADGES ROW =================
      A compact "status strip" recruiters see first. Edit freely.
 -->
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://YOUR_PORTFOLIO)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR_LINKEDIN)
-[![Twitter](https://img.shields.io/badge/Twitter-000000?style=for-the-badge&logo=x&logoColor=white)](https://twitter.com/YOUR_TWITTER)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:YOUR_EMAIL)
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)]([https://linkedin.com/in/YOUR_LINKEDIN](https://www.linkedin.com/in/pratham-tiwari-28145a332/))
+
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:prathamjee97@gmail.com)
 
 <img src="https://komarev.com/ghpvc/?username=YOUR_GITHUB_USERNAME&label=Profile+Views&color=7f5af0&style=for-the-badge" alt="Profile Views" />
 
@@ -64,7 +64,7 @@
 
 ## 🧭 Professional Summary
 
-> B.Tech Information Technology undergraduate (Semester 4) focused on **Artificial Intelligence, Machine Learning, and Full-Stack Engineering**. I build end-to-end AI-powered products — from OCR pipelines and recommendation engines to production-grade APIs and interfaces — with an emphasis on clean architecture, reproducibility, and real-world usefulness. Actively competing in hackathons and exploring research at the intersection of applied ML and systems design.
+> B.Tech Information Technology undergraduate focused on **Full-Stack Engineering, Machine Learning, and Artificial Intelligence**. I build end-to-end AI-powered products — from OCR pipelines and recommendation engines to production-grade APIs and interfaces — with an emphasis on clean architecture, reproducibility, and real-world usefulness. Actively competing in hackathons and exploring research at the intersection of applied ML and systems design.
 
 <br/>
 
