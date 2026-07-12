@@ -24,7 +24,7 @@
 
 ## 🧭 Professional Summary
 
-> I am a **B.Tech Information Technology undergraduate** focused on **Artificial Intelligence, Machine Learning, and Full-Stack Engineering**. I specialize in building end-to-end AI-powered software — from intelligent recommendation engines and OCR pipelines to scalable APIs and responsive interfaces. I am passionate about applying system design principles to machine learning products to ensure clean architecture, robustness, and real-world impact. Actively competing in hackathons and exploring research at the intersection of applied ML and backend architecture.
+> I am a **B.Tech Information Technology undergraduate** focused on **Artificial Intelligence, Machine Learning, and Full-Stack Engineering**. I specialize in building end to end AI powered software from intelligent recommendation engines and OCR pipelines to scalable APIs and responsive interfaces. I am passionate about applying system design principles to machine learning products to ensure clean architecture, robustness, and real-world impact. Actively competing in hackathons and exploring research at the intersection of applied ML and backend architecture.
 
 <br/>
 
