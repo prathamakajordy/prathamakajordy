@@ -44,15 +44,29 @@
 </td>
 <td width="45%" valign="top" align="center">
 
-```python
-class Pratham:
-    def __init__(self):
-        self.role = "Software Engineer"
-        self.focus = ["AI/ML", "Backend", "Full-Stack"]
-        self.stack = ["Python", "FastAPI", "React"]
+```java
+public class Pratham {
 
-    def status(self):
-        return "Building intelligent systems"
+    private final String role = "Software Engineer";
+
+    private final List<String> expertise = List.of(
+        "Full-Stack Development",
+        "Backend Development",
+        "Artificial Intelligence"
+    );
+
+    private final List<String> techStack = List.of(
+        "Java",
+        "Python",
+        "React",
+        "FastAPI"
+    );
+
+    public String mission() {
+        return "Building intelligent software that solves real-world problems.";
+    }
+
+}
 ```
 
 </td>
