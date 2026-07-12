@@ -35,7 +35,7 @@
 <td width="55%" valign="top">
 
 - 🎓 **Currently studying:** B.Tech in Information Technology
-- 🔭 **Currently building:** *Attendance Planner* — an AI-powered attendance optimization platform
+- 🔭 **Currently building:** *Attendance Planner* an AI-powered attendance optimization platform
 - 🌱 **Currently learning:** Advanced System Design, LLMs, and Scalable Backend Architecture
 - 🤝 **Open to collaborating on:** AI/ML projects, Full-Stack applications, and Hackathons
 - 💬 **Ask me about:** Python, React, FastAPI, Computer Vision, and Recommendation Systems
