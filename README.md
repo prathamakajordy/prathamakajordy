@@ -231,13 +231,13 @@ An offline inference engine developed to evaluate AI competition submissions det
 <div align="center">
 
 <!-- GitHub Stats -->
-<img height="180em"
+<!-- <img height="180em"
      src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?       username=prathamakajordy&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true"/>
 
 <img height="180em"
      src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=prathamakajordy&layout=compact&langs_count=8&theme=tokyonight&hide_border=true"/>
 
-<br><br>
+<br><br> -->
 
 <!-- GitHub Streak -->
 <img src="https://streak-stats.demolab.com?user=prathamakajordy&theme=tokyonight&hide_border=true" />
